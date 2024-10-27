@@ -1,0 +1,60 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+    .container{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .one{
+        background-color: turquoise;
+        height: 100px;
+        flex-basis: 20%;
+        margin: 10px;
+    }
+    .two{
+        background-color: purple;
+        height: 100px;
+        flex-basis: 20%;
+        margin: 10px;
+    }
+    .three{
+        background-color: greenyellow;
+        height: 100px;
+        flex-basis: 20%;
+        margin: 10px;
+    }
+    .four{
+        background-color: blue;
+        height: 100px;
+        flex-basis: 20%;
+        margin: 10px;
+    }
+    @media screen and (max-width:900px){
+        .one, .two, .three, .four {
+        flex-basis: 40%;
+        }
+    }
+    @media screen and (max-width:600px){
+        .one, .two, .three, .four {
+        flex-basis: 100%;
+       }
+    }
+   
+</style>
+<body>
+    <div class="container">
+<div class="one">
+
+</div>
+<div class="two">
+
+</div>
+<div class="three">
+
+</div>
+<div class="four">
+
+</div>
+</div>
+</body>
